@@ -1,0 +1,70 @@
+#website {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+    grid-template-areas:
+            "header header"
+            "sidebar content"
+            "sidebar content"
+            "footer footer";
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    /*height: 100vh;*/
+}
+
+header {
+    grid-area: header;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 200px;
+    grid-auto-rows: minmax(60px, 200px);
+    grid-template-areas:
+            "nav"
+            "banner";
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #1DA1F2;
+}
+div#banner {
+    grid-area: banner;
+    background-color: #5bbdfa;
+}
+
+div#sidebar {
+    grid-area: sidebar;
+    background-color: #379AD6;
+}
+
+main {
+    grid-area: content;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+            "nav"
+            "banner";
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+div#articles {
+    background-color: azure;
+}
+
+div#formselect {
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aquamarine;
+}
+
