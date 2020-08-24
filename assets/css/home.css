@@ -33,7 +33,8 @@ nav {
 }
 div#banner {
     grid-area: banner;
-    background-color: #5bbdfa;
+    background: url('../images/swimmer.jpg') no-repeat 50% 53%;
+    background-size: cover;
 }
 
 div#sidebar {

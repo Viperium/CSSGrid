@@ -7,7 +7,7 @@
 <head>
     <link rel="stylesheet" href="assets/css/background.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/<?php echo PAGE; ?>.css">
+    <link rel="stylesheet" href="assets/css/<?php echo CSS; ?>.css">
     <title><?php echo PAGE; ?> template</title>
 </head>
 <body>
