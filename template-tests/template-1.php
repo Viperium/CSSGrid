@@ -1,16 +1,19 @@
+<?php
+define('PAGE', 'Template 1');
+define('CSS', 'home');
+?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/css/background.css">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <title>Grid template</title>
+    <link rel="stylesheet" href="../assets/css/background.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/<?php echo CSS ?>.css">
+    <title><?php echo PAGE; ?> Example</title>
 </head>
 <body>
     <div id="website" class="container">
         <header>
-            <nav>
-                <h2><a href="#">Home</a></h2>
-            </nav>
+            <?php require('../template/nav.php') ?>
             <div id="banner">
                 <h2>Banner Text</h2>
             </div>
@@ -55,5 +58,6 @@
             <p><a href="mailto:yoran@viperium.nl">yoran@viperium.nl</a></p>
         </footer>
     </div>
+
 </body>
 </html>

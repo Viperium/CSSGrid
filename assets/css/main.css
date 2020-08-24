@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 100%;
+    grid-template-areas:
+            'header'
+            'example';
+}
+
+header {
+    grid-area: header;
+    background-color: #1DA1F2;
+}
+
+nav {
+    padding: 15px;
+}
+
+div#banner {
+    padding: 15px;
+}
+
+nav a {
+    background-color: #5bbdfa;
+    color: #ffffff;
+    border: 1px solid #379AD6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1DA1F2;
+}
+
+.example {
+    grid-area: example;
+    height: 70vh;
+}

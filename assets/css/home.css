@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: minmax(150px, auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-areas:
             "header header"
             "sidebar content"
@@ -18,7 +18,7 @@ header {
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 200px;
+    grid-template-rows: 130px 200px;
     grid-auto-rows: minmax(60px, 200px);
     grid-template-areas:
             "nav"
@@ -50,7 +50,7 @@ main {
     grid-template-areas:
             "nav"
             "banner";
-    grid-gap: 20px;
+    grid-gap: 10px;
     justify-content: center;
     align-content: center;
 }
@@ -66,5 +66,15 @@ div#formselect {
 footer {
     grid-area: footer;
     background-color: aquamarine;
+}
+
+.ex1 .parent {
+    display: grid;
+    place-items: center;
+}
+
+.centered {
+    display: grid;
+    place-items: center;
 }
 

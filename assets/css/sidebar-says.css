@@ -1,0 +1,23 @@
+.example {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    height: 70vh;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    background: white;
+    padding: 15px;
+}
+
+body {
+    font-family: system-ui, serif;
+}
