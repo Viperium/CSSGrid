@@ -1,0 +1,16 @@
+.example {
+    display: grid;
+    height: 100vh;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+div.box {
+   display: grid;
+   place-items: center;
+   background: lightpink;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}

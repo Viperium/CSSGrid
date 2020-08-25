@@ -18,7 +18,7 @@ header {
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 130px 200px;
+    grid-template-rows: 200px 400px;
     grid-auto-rows: minmax(60px, 200px);
     grid-template-areas:
             "nav"
@@ -33,7 +33,7 @@ nav {
 }
 div#banner {
     grid-area: banner;
-    background: url('../images/swimmer.jpg') no-repeat 50% 53%;
+    background: url('../images/swimmer.jpg') no-repeat 50% 65%;
     background-size: cover;
 }
 
